@@ -8,5 +8,21 @@ module.exports = {
   daisyui: {
     themes: ["light", "dark", "cupcake"],
   },
+  theme: {
+    extend: {
+      colors: {
+        'mycolor': '#B68C5A',
+      }
+    }
+  },
+  theme: {
+    fontFamily: {
+      'primaryFont': ['EB Garamond', 'serif'],
+      'secondaryFont': ['Poppins', 'sans-serif'],
+    },
+  },
+
 }
+
+
 
